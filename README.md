@@ -2,6 +2,6 @@ Superherogrievance website hosted link : https://superhero-frontend-cvuo.vercel.
 
 
 login credentials of admin :
-username : admin
+username : admin , 
 password : password
 
