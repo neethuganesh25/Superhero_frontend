@@ -1,0 +1,94 @@
+.grievance-list-container {
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .filter-search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+  }
+  
+  .status-filter {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .alert {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .alert.success {
+    background-color: #4CAF50;
+  }
+  
+  .alert.error {
+    background-color: #f44336;
+  }
+  
+  .grievance-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .grievance-table th, .grievance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .grievance-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .btn-approve {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .btn-reject {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .filter-search-container {
+      flex-direction: column;
+    }
+  
+    .search-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .status-filter {
+      width: 100%;
+    }
+  
+    .grievance-table {
+      display: block;
+      overflow-x: auto;
+    }
+  }
+  
